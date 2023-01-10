@@ -1,0 +1,4 @@
+.shadow-btn{
+    border: 1px solid var(--button--border-color);
+    box-shadow: 3px 3px 0 var(--button--shadow-color);
+}

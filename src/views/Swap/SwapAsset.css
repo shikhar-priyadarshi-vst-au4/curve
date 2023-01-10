@@ -1,0 +1,47 @@
+.swapasset .swapasset-card{
+    box-shadow:  6px 6px 0 var(--box--primary--shadow-color);
+    max-width: 26.5rem;
+}
+
+.swapasset .swapasset-btn{
+    box-shadow: 2px 2px 0 var(--button--shadow-color);
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+}
+
+.swapasset .swapasset-stepper{
+    display: flex;
+    flex-direction: column;
+}
+
+.swapasset-stepper > .swapasset-step{
+    padding-left: 8px;
+    position: relative;
+}
+
+.swapasset-step::before{
+    content: '';
+    width: 8px;
+    height: 8px; 
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.swapasset-step:first-child::after{
+    content: '';
+    position: absolute;
+    left: 11px;
+    bottom: -6px;
+    display: inline-block;
+    height: 8px;
+    width: 1px;
+    border-left: 1px dotted;
+}
+
+.swapasset .swapasset-footer-btn{
+    border: 1px solid var(--button--border-color);
+    box-shadow: 3px 3px 0 var(--button--shadow-color);
+}

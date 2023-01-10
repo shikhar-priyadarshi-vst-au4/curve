@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('./variable.css');
+@font-face {
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/DM_Sans/DMSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/DM_Sans/DMSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/DM_Sans/DMSans-Regular.ttf") format("truetype");
+}
+
+body{
+    background-image: url("../img/hero-bg.3c002b1c2eeb8fabba4c.png");
+    background-repeat: repeat-x;
+    background-size: auto 400px;
+    background-position-y: 80px;
+    background-attachment: fixed;
+}

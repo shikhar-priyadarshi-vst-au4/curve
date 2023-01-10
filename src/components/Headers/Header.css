@@ -1,0 +1,13 @@
+.header .connect-btn{
+    box-shadow: 3px 3px 0 var(--button--shadow-color);
+}
+
+.header .connect-btn::before{
+    content: '';
+    display: inline-block;
+    width: var(--font-size-2);
+    height: var(--font-size-2);
+    background: var(--danger-400);
+    border: 3px solid var(--danger-600);
+    border-radius: 50%;
+}
